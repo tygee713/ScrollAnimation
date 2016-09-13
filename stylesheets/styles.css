@@ -1,0 +1,21 @@
+/* Creates sticky nav bar */
+.navbar {
+  height: 50px;
+}
+
+#aboutSection {
+  height: 100vh;
+  background-color: skyblue;
+}
+
+#projectsSection {
+  height: 100vh;
+  background-color: salmon;
+}
+
+#contactSection {
+  height: 100vh;
+  background-color: lightgrey;
+}
+
+/*  */
