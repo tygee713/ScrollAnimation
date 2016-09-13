@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('body').scrollspy({ target: "#myNav" });
+  $('body').scrollspy({ target: "#myNav", offset: 50 });
 })
 
 $('nav a').on('click', function(e) {
