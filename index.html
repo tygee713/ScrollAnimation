@@ -8,29 +8,59 @@
   <link rel="stylesheet" type="text/css" href="./stylesheets/styles.css">
 </head>
 <body>
-  <header>
-    <nav class = "navbar navbar-inverse navbar-fixed-top">
-      <div class="collapse navbar-collapse" id="myNav">
+
+ 
+<div id="home" class="container-fluid">
+  
+</div>
+
+    <nav id = "myNav" class = "navbar navbar-inverse navbar-fixed-bottom">
+      <div class = "container-fluid" id="myNav">
         <ul class = "nav navbar-nav">
-          <li class="active"><a href = "#aboutSection" id="about">About</a></li>
+          <li><a href = "#aboutSection" id="about">About</a></li>
           <li><a href = "#projectsSection" id="projects">Projects</a></li>
           <li><a href = "#contactSection" id="contact">Contact</a></li>
         </ul>
       </div>
     </nav>
-  </header>
 
-  <div id="aboutSection" class="container-fluid">
-
-
+ <div id="aboutSection" class="container-fluid content">
+    <h1 id="myName">Tyler Geerdts</h1>
+    <h2 id="myTitle">Web Developer</h2>
+    <p id="myInfo">Hey there!  I&#8217;m Tyler, a full-stack web developer based in the tri-state area.  I&#8217;m currently enrolled in the Rutgers Coding Bootcamp, making user-friendly front-end designs and fully-functional web applications.  I'm available for hire on a part-time basis.</p>
   </div>
+
 
   <div id="projectsSection" class="container-fluid">
+    <div class = "row" id="content-start">
+      <div class = "col-sm-6">
+        <div class = "row">
+          <!-- <div class = "col-sm-6"> -->
+            <a href="https://streetfighter-rpg.herokuapp.com" target = "_blank"><div class = "img-thumb" style="display: inline-block; position:relative; z-index: 3;">
+              <img class = "img-responsive img-center" src = "streetfighter.jpg">
+              <div class = "img-caption" style="display: none">
+                <h3 class = "text-center">Street Fighter RPG</h3>
+              </div>
+            </div></a>
+          <!-- </div> -->
+        
+          <!-- <div class = "col-sm-6"> -->
+            <span class = "project-summary" style="display:inline-block; position: absolute; top: 20px; left: 0px; width: 200px; z-index: 1">
+              A browser RPG game uses Javascript objects to hold character information and JQuery to dynamically populate the page depending on what characters the user chooses.
+            </span>
+          <!-- </div> -->
+        </div>
 
+      </div>
 
+      <div class = "col-sm-6">
+        
+      </div>
+
+    </div>
   </div>
 
-  <div id="contactSection" class="container-fluid">
+  <div id="contactSection" class="container-fluid content">
 
 
   </div>
